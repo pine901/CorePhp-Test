@@ -1,0 +1,135 @@
+body {
+	background-color: #dddddd;
+}
+
+.container {
+	background-color: white;
+	border-radius: 7px;
+	margin-top: 10px;
+	width: 600px;
+	padding: 20px 25px !important;
+}
+h1 { 
+	font-size: 20px;
+	color: #646464 !important;
+	font-weight: bold;
+	margin-top: 0px !important;
+}
+h2 {
+	font-size: 15px;
+	color: #7D7D7D !important;
+	font-weight: bold;
+	margin-top: 0px !important;
+	padding-bottom: 20px !important;
+	border-bottom: 1px solid #dedede;
+}
+h3 { 
+
+	font-size: 15px;
+	color: #7D7D7D !important;
+	font-weight: bold;
+	margin-top: 0px !important;
+}
+
+.col-sm-10 {
+	width: 100% !important;
+}
+
+.modal-dialog {
+	display: flex;
+	justify-content: center;
+}
+.modal-content {
+	width: 80%;
+}
+
+.btn-validate {
+	padding: 10px 15px;
+	background-color: #4488FF;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	display: flex;
+	margin: 0 auto !important;
+}
+
+.group-validate-btn { 
+	display: flex;
+	align-content: center;
+}
+
+
+.btn-original {
+	padding: 10px 15px;
+	background-color: #eeeeee;
+	color: #4488FF;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	display: flex;
+}
+.btn-standard {
+	padding: 10px 15px;
+	background-color: #4488FF;
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	display: flex;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.address-textarea {
+	margin-top: 20px;
+}
+
+.donate-now {
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+}
+
+.original {
+  float: left;
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+.standard {
+  float: left;
+  width: 200px;
+  height: 40px;
+  position: relative;
+}
+
+.donate-now label,
+.donate-now input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.donate-now input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.donate-now input[type="radio"]:checked+label,
+.Checked+label {
+  background: #4488FF;
+  color: white;
+}
+
+.donate-now label {
+  padding: 5px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  z-index: 90;
+}
